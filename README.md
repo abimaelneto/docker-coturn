@@ -31,7 +31,7 @@ docker run \
 ### With Docker Compose
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 ## Environment variables
@@ -63,12 +63,6 @@ docker run \
   --restart=always \
   --name coturn \
   zenosmosis/docker-coturn
-```
-
-*An easier example (if Docker Compose is installed)*
-
-```bash
-docker compose up
 ```
 
 (see [docker-compose.yml](docker-compose.yml) for configuration)
