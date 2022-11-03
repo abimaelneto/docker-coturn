@@ -1,4 +1,4 @@
-FROM ubuntu:18.04
+FROM ubuntu:22.04
 LABEL maintainer="zenOSmosis <info@zenosmosis.com>"
 
 # Set the working directory to /app

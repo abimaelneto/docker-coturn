@@ -68,7 +68,7 @@ docker run \
 *An easier example (if Docker Compose is installed)*
 
 ```bash
-docker-compose up
+docker compose up
 ```
 
 (see [docker-compose.yml](docker-compose.yml) for configuration)

@@ -3,6 +3,7 @@ version: "3"
 services:
   coturn:
     build: .
+    container_name: coturn
     environment:
       USERNAME: username # For example, only
       PASSWORD: password # For example, only
